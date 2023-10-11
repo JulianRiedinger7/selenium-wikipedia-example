@@ -36,5 +36,7 @@ public class Main {
         for (WebElement anchor: allAnchors) {
             System.out.println(anchor.getText());
         }
+
+        driver.quit();
     }
 }
